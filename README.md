@@ -64,4 +64,14 @@ For anything else, contact me directly at **info@nejedniko.cz**.
 
 ---
 
+## 💸 Support
+
+Like the project?  
+Want to keep the caffeine flowing so I can keep building stuff that beeps and blinks?
+
+☕ **Invest in my caffeine addiction here:**  
+[https://ko-fi.com/bunnykill](https://ko-fi.com/bunnykill)
+
+---
+
 > Made with precision, shared with purpose — powered by Arduino Nano.
