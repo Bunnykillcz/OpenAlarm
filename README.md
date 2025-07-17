@@ -5,6 +5,9 @@
 <h1 align="center">OpenAlarm – Arduino Nano Opensource Alarm System</h1>
 
 ---
+<p align="center">
+  <img src="docs/img/NN_SimpleSecuritySystem.gif" alt="OpenAlarm Preview" width="500">
+</p>
 
 ## 📦 Overview
 
