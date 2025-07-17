@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" alt="OpenAlarm Logo" width="200">
+  <img src="logo.png" alt="OpenAlarm Logo" width="400">
 </p>
 
 <h1 align="center">OpenAlarm – Arduino Nano Open Hardware Project</h1>
