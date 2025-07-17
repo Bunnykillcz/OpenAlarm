@@ -1,10 +1,13 @@
 <p align="center">
-  <img src="logo.png" alt="OpenAlarm Logo" width="200">
+  <img src="logo.png" alt="OpenAlarm Logo" width="400">
 </p>
 
-<h1 align="center">OpenAlarm – Arduino Nano Open Hardware Project</h1>
+<h1 align="center">OpenAlarm – Arduino Nano Opensource Alarm System</h1>
 
 ---
+<p align="center">
+  <img src="docs/img/NN_SimpleSecuritySystem.gif" alt="OpenAlarm Preview" width="500">
+</p>
 
 ## 📦 Overview
 
