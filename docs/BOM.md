@@ -37,7 +37,7 @@ This document lists all the components, modules, and tools required to build the
 - Width: **65 mm**  
 - Height: **98 mm**
 
-The board fits into the custom 3D printed case provided in `/dimensions/stl`. You are welcome to make your own as well.
+The board fits into the 3D printed case provided in `/dimensions/stl`. You are welcome to make your own as well.
 
 ---
 
@@ -66,10 +66,10 @@ The board fits into the custom 3D printed case provided in `/dimensions/stl`. Yo
 
 ## 📝 Notes
 
-- If you're using bright LEDs, calculate exact resistor values using Ohm’s Law:  
+- If you're using standard LEDs that require ~20mA, calculate exact resistor values using Ohm’s Law:  
   `R = (V_supply - V_LED) / I_LED`  
-  Example for 5V supply, red LED (2V), 10 mA:  
-  `R = (5 - 2) / 0.01 = 300 Ω`  
+  Example for 5V supply, red LED (2V), 20 mA:  
+  `R = (5 - 2) / 0.02 = 150 Ω`  
   Choose the closest higher standard value.
 
 - 💡 **Note** that this project uses **highly sensitive LEDs** —  
