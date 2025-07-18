@@ -32,6 +32,15 @@ This document lists all the components, modules, and tools required to build the
 
 ---
 
+## 📐 Motherboard PCB Dimensions
+
+- Width: **65 mm**  
+- Height: **98 mm**
+
+The board fits into the custom 3D printed case provided in `/dimensions/stl`. You are welcome to make your own as well.
+
+---
+
 ## 🛠 Assembly Requirements
 
 | Tool / Material | Notes |
