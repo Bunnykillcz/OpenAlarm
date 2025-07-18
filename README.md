@@ -34,7 +34,7 @@ Included in this repo:
 ## 🔧 Requirements
 
 - Arduino Nano board  
-- Components as listed in `[/docs/BOM.md](/docs/BOM.md)`  
+- Components as listed in [`/docs/BOM.md`](/docs/BOM.md)
 - Basic tools: soldering iron, USB cable, multimeter, etc.
 
 ---
