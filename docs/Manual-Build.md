@@ -29,7 +29,7 @@ This manual guides you through building the OpenAlarm hardware step by step — 
 - Leave **Arduino Nano** for last.
 - The board should be labeled with component positions. If not:
   - Refer to schematic diagrams and board photos
-  - Check [docs/img/OA-mounting_connections.jpg](./img/OA-mounting_connections.jpg)
+  - Check [docs/img/OA-mounting_detail.jpg](./img/OA-mounting_detail.jpg)
 
 #### Tips:
 - **LEDs**: Do not solder flush. Leave long legs. Only shorten them if the case doesn’t close cleanly.
@@ -170,8 +170,8 @@ Save your changes.
 
 ### 5. Final assembly
 
+- Secure all parts inside with double-sided tape (or glue) and screws.
 - Close the enclosure.
-- Secure all parts inside with double-sided tape or screws.
 - Make sure nothing rattles.
 
 ---
