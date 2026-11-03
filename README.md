@@ -1,6 +1,7 @@
 <div align="center">
 
 <img src="docs/svg/icons/OpenAlarm_logo_text.svg" alt="OpenAlarm logo" width="250" />  
+<br/>
 <img src="docs/img/NN_SimpleSecuritySystem.gif" alt="OpenAlarm demonstration" width="350" />
 
 </div>
