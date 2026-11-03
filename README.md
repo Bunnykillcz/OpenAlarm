@@ -1,8 +1,9 @@
-::: align-center
-![LOGO|250](docs/svg/icons/OpenAlarm_logo_text.svg)
-![AnimatedAlarm|350](docs\img\NN_SimpleSecuritySystem.gif) 
-:::
+<div align="center">
 
+<img src="docs/svg/icons/OpenAlarm_logo_text.svg" alt="OpenAlarm logo" width="250" />  
+<img src="docs/img/NN_SimpleSecuritySystem.gif" alt="OpenAlarm demonstration" width="350" />
+
+</div>
 OpenAlarm is an Arduino Nano alarm with a keypad, sensor input, status LEDs, buzzer & optional external siren. This repository contains the firmware, PCB designs & enclosure files. Licensing is governed by the [NejedNiko Software Licensing Framework](https://github.com/Bunnykillcz/NejedNiko_Software_Licensing_Framework). See [LICENSE](LICENSE) for the terms that apply to OpenAlarm.
 
 ## Build documentation
@@ -28,6 +29,8 @@ Submit bug reports through [GitHub Issues](https://github.com/Bunnykillcz/OpenAl
 
 Support the project through [Ko-fi](https://ko-fi.com/bunnykill).
 
-::: align-right
-[NejedNiko.cz](https://web.nejedniko.cz)   ![NejedNiko.cz logo|16](docs/img/NNlogo.png)
-:::
+<div align="right">
+
+[NejedNiko.cz](https://web.nejedniko.cz) <img src="docs/img/NNlogo.png" alt="NejedNiko.cz logo" width="16" />
+
+</div>
