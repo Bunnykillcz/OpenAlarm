@@ -1,183 +1,72 @@
-# 🛠️ OpenAlarm Build Manual
-## last-updated: 23.07.2025
+# OpenAlarm build manual
 
-Made by **NejedNiko.cz**  
-(c) 2021–2025 — All rights reserved  
-Licensed for non-commercial personal use
+By NejedNiko.cz. 
+Software & documentation are licensed under the [NejedNiko Software Licensing Framework](https://github.com/Bunnykillcz/NejedNiko_Software_Licensing_Framework). 
+See [LICENSE](../LICENSE) for scope & full terms.
 
-This manual guides you through building the OpenAlarm hardware step by step — from preparing the parts to uploading the software and testing everything. For best results, read the entire guide once before starting.
+## Parts & tools
 
----
+Gather the components in the [bill of materials](BOM.md), a soldering iron, solder, a USB cable & a multimeter. Print the enclosure parts from [dimensions/stl](../dimensions/stl). The [schematics directory](../schematics) contains the PCB manufacturing archive & board references.
 
-## A — The Hardware
+## Assemble the board
 
-### 1. Prepare everything you need
+Solder the small components first, then the larger parts. Fit the Arduino Nano last. Use the board markings & the [mounting photo](img/OA-mounting_detail.jpg) to check component positions.
 
-- Soldering iron + solder
-- Printed case (3D print or CNC cut, see `/dimensions`)
-- Ordered or self-etched PCB (I recommend [JLCPCB](https://jlcpcb.com))
-- All parts listed in [docs/BOM.md](./BOM.md)
-- Arduino Nano, step-up converter, Li-ion battery, charger module, LEDs, buzzer, resistors, etc.
+Leave the LED leads long enough to reach the enclosure openings. Hold the LEDs level with a piece of cardboard while soldering; trim the leads after checking the enclosure fit.
 
-> Tip: Check [docs/BOM.md](./BOM.md) for links and part numbers.
+### Set the step-up output
 
----
+Before connecting the step-up module to the main board:
 
-### 2. Soldering components
+1. Power the module from the Li-ion battery or a bench supply.
+2. Measure its output with a multimeter.
+3. Adjust the output to 5 V, within 0.05 V.
 
-- Start with **small components first**, then larger ones (standard practice).
-- Leave **Arduino Nano** for last.
-- The board should be labeled with component positions. If not:
-  - Refer to schematic diagrams and board photos
-  - Check [docs/img/OA-mounting_detail.jpg](./img/OA-mounting_detail.jpg)
+### Connect the modules
 
-#### Tips:
-- **LEDs**: Do not solder flush. Leave long legs. Only shorten them if the case doesn’t close cleanly.
-- **LED leveling**: Use a piece of cardboard to keep them level and consistent.
+Wire the modules using the [connection photo](img/OA-mounting_connections.jpg) & schematic. Check continuity with power disconnected. Check supply voltages before powering the main board; a bench supply can be used for this test.
 
----
+Attach wires or pin headers to the sensor input section at the top left of the board for connecting motion sensors or switches.
 
-### 2.a. Prepare the step-up module
+### Connect the battery
 
-- **Before soldering**: Set the step-up module to output **5V**.
-- Power it with a Li-ion battery or a power supply.
-- Measure the output voltage with a multimeter.
-- Adjust the small screw until output is 5V (±0.05V).
-- Once set, the module is ready to be used.
+Use spot-welded nickel strips for the Li-ion cell connections. Don't solder directly onto the cell.
 
----
+### Check power & fit the enclosure
 
-### 3. Wire modules
+Connect USB power or a charger to the charging module. Check that the battery charges & that the step-up module supplies the main board. Disconnect power if a component heats up unexpectedly. An LED blink depends on the sketch already installed on the Nano.
 
-- After soldering, connect all modules with wires as per the connection diagram.
-- Double-check with a **multimeter**:
-  - Continuity between connections
-  - Correct voltages before plugging in the battery
+Secure the modules with screws through their mounting holes, double-sided tape or glue. Check that the LED positions line up with the enclosure before closing it.
 
-> Optional: If available, use a lab power supply to power the board and test functionality before inserting the battery.
+## Configure the firmware
 
-🖼️ **Visual wiring reference**:  
-![Connection guide](./img/OA-mounting_connections.jpg)
+Install [Arduino IDE](https://www.arduino.cc/en/software), then select the board & port for your Nano. Install the board package or USB driver required by your board if it isn't detected.
 
----
-
-### 4. Connect the Li-ion battery
-
-**⚠️ CAUTION: Li-ion batteries are dangerous if mishandled.**
-
-- Use **spot welding** and **nickel strips**.
-- **Never solder directly** onto the battery. This is a safety risk.
-- If you choose to do so, you do it **at your own risk**.
-
-> Personal note: I once soldered directly to a Li-ion cell. It didn’t explode, but it could have.
-
----
-
-### 4.a. Sensor pins
-
-- Solder wires or pin headers to the sensor input section (top left of the board).
-- This helps later when attaching motion sensors or switches.
-
----
-
-### 5. First power-on test
-
-- Connect USB power or a charger to the charging module.
-- Battery should start charging.
-- Step-up module should power the main board.
-- Arduino Nano should blink (default sketch is pre-uploaded).
-- **Nothing should heat up.**
-
----
-
-### 5.a. Fix into case
-
-- Secure the modules using:
-  - Double-sided tape or glue
-  - Screws through mounting holes
-
----
-
-### ✅ 6. Hardware finished!
-
-If all steps went well, your OpenAlarm hardware is now built and ready for firmware upload.
-
----
-
-## B — The Software
-
-### 1. Prepare your system
-
-- Use a PC/laptop that supports Arduino IDE
-- Download IDE from [arduino.cc/en/software](https://www.arduino.cc/en/software)
-
----
-
-### 2. Install & setup
-
-- Install required **drivers** and **board support** for Arduino Nano
-- If the Nano isn't detected, install missing packages via the Boards Manager
-
----
-
-### 3. Open and configure the code
-
-- Open the project:  
-  [`code/NNOpenAlarm/NNOpenAlarm.ino`](../code/NNOpenAlarm/NNOpenAlarm.ino)
-
-#### 3.a. Edit configuration
-
-At the top of the code in a section properly commented:
+Open [code/NNOpenAlarm/NNOpenAlarm.ino](../code/NNOpenAlarm/NNOpenAlarm.ino). The settings near the top define the four-digit PIN, entry delay, exit delay & entry beeps:
 
 ```cpp
-//Your PASSWORD HERE: (example: 9856)
-const int n1 = 9; //first  digit
-const int n2 = 8; //second digit
-const int n3 = 5; //third  digit
-const int n4 = 6; //fourth digit
+const int n1 = 9;
+const int n2 = 8;
+const int n3 = 5;
+const int n4 = 6;
 
-int delay_time_ms_enter = 8000; //the delay for a person to enter the room and enter the code safely
-int delay_time_ms_leave = 8000; //the delay for a person to leave before the alarm starts
-bool beep_during_entry_sequence = true; //if the buzzer should beep while counting down the entry
+int delay_time_ms_enter = 8000;
+int delay_time_ms_leave = 8000;
+bool beep_during_entry_sequence = true;
 ```
 
-Save your changes.
+Change the PIN before use. Both delay settings are in milliseconds; `8000` means 8 seconds. Setting `beep_during_entry_sequence` to `false` disables the entry countdown beeps.
 
----
+## Upload & test
 
-### 3.b. Upload a test sketch (optional but recommended)
+Upload the Blink example first if you need to check communication with the Nano. Then upload the configured OpenAlarm sketch. The firmware sends status messages to the Serial Monitor at 9600 baud.
 
-- Upload the standard **Blink** example.
-- If the LED blinks — your setup is working.
+Disconnect the external siren while testing:
 
----
+1. Restart the board. The firmware starts disarmed.
+2. Press `*` to start the exit countdown. Press `#` during that countdown to cancel arming.
+3. Arm it again & let the countdown finish.
+4. Trigger the sensor input. Enter your four-digit PIN, then press `*` to disarm before the entry delay expires.
+5. Repeat the sensor test without entering the PIN. Check that the siren output activates after the entry delay, then disarm with the PIN & `*`.
 
-### 3.c. Upload OpenAlarm firmware
-
-- Upload the modified `NNOpenAlarm.ino` sketch.
-- Check the serial monitor for status output if needed.
-
----
-
-### ✅ 4. Firmware ready!
-
-- Disconnect and reconnect power.
-- Press **OK** to arm the alarm (tip: unplug the siren while testing).
-- It should beep.
-- Press **Cancel** to disarm.
-
----
-
-### 5. Final assembly
-
-- Secure all parts inside with double-sided tape (or glue) and screws.
-- Close the enclosure.
-- Make sure nothing rattles.
-
----
-
-### 6. Ready to use
-
-Your hardware and software are now fully assembled and working.  
-Continue to [Usage Manual](./Manual-Usage.md) to learn how to operate OpenAlarm.
-
+Once testing is complete, secure the remaining wiring & close the enclosure. Check that no parts are loose. See the [usage manual](Manual-Usage.md) for keypad controls.

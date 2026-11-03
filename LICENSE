@@ -1,30 +1,333 @@
-Creative Commons Attribution-NonCommercial 4.0 International Public License
+OpenAlarm licensing
 
-By using, copying, modifying, or distributing this work (OpenAlarm), you agree to the terms of this license.
+Licenses are part of the NejedNiko Software Licensing Framework:
+https://github.com/Bunnykillcz/NejedNiko_Software_Licensing_Framework
+
+Scope:
+- NFUL v1.1 applies to the software, documentation, schematics, and other
+  accompanying files, except the 3D model files identified below.
+- NFUL-3D v1.0 applies to the 3D model files in dimensions/ and physical
+  objects manufactured from those models.
+
+The two licenses apply to their respective files; they are not alternative
+licenses for the same files.
+
+NFUL v1.1 source:
+https://github.com/Bunnykillcz/NejedNiko_Software_Licensing_Framework/blob/main/NFUL_v1.1_czr.txt
+
+NFUL-3D v1.0 source:
+https://github.com/Bunnykillcz/NejedNiko_Software_Licensing_Framework/blob/main/NFUL-3D_v1.0_czr.txt
 
 ====================================================================
-Creative Commons Attribution-NonCommercial 4.0 International License
+
+NejedNiko Free Use License (NFUL) v1.1
+
+Copyright (c) NejedNiko
+
+This software is licensed, not sold.
+
+1. Definitions
+
+"Software" means the software, source code, binaries, documentation, assets, and accompanying files distributed with this license, unless otherwise stated.
+
+"Author" means NejedNiko, the original creator and copyright holder of the Software.
+
+"You" means any individual or legal entity using, copying, modifying, or redistributing the Software.
+
+"Modified Version" means any version of the Software that has been changed, adapted, extended, translated, transformed, rebuilt, or otherwise altered from its original form.
+
+"Commercial Use" means use of the Software primarily intended for commercial advantage, monetary compensation, paid services, product sales, business operations, or revenue generation.
+
+2. Grant of License
+
+Permission is granted to use, copy, study, modify, and redistribute the Software, subject to the terms of this license.
+
+The Software may be used free of charge for personal, educational, research, hobby, internal testing, and other non-commercial purposes.
+
+3. Attribution Requirement
+
+Any use, copy, redistribution, publication, or Modified Version of the Software must preserve clear attribution to the original Author.
+
+At minimum, the following must be preserved:
+
+* the original copyright notice
+* this license text
+* the name NejedNiko as the original Author
+* any included attribution notices, credits, or author files
+
+You may not remove, obscure, or misrepresent the original authorship of the Software.
+
+4. Redistribution
+
+You may redistribute the Software, provided that:
+
+* this license text is included
+* all copyright and attribution notices are preserved
+* the Software is not falsely presented as your own original work
+* any Modified Version is clearly marked as modified
+* the nature of your modifications is reasonably described
+
+Redistribution of the original, unmodified Software must keep it in its original form.
+
+5. Modifications
+
+You may modify the Software and create Modified Versions, provided that:
+
+* your modifications are clearly stated
+* the original Author remains credited
+* this license remains included
+* the Modified Version does not imply endorsement by the original Author unless permission was explicitly granted
+* you do not use the name, branding, logo, or identity of NejedNiko in a misleading way
+
+A Modified Version must include a notice such as:
+
+"Modified from original software by NejedNiko."
+
+Where practical, the notice should also include a short summary of the changes made.
+
+6. Non-Commercial Use
+
+The Software and Modified Versions may be used, copied, modified, and redistributed for non-commercial purposes.
+
+Commercial Use of the original, unmodified Software is not permitted without prior written permission from the Author.
+
+7. Commercial Use Exception
+
+Commercial Use may be permitted without separate written permission only if the Software has been substantially incorporated as a minor, supporting component within a larger independent work, and all of the following conditions are met:
+
+* the resulting work contains substantial original work clearly beyond the Software itself
+* the Software does not constitute the primary feature, core function, or main deliverable of the resulting work
+* the resulting work is not primarily a resale, repackaging, rebranding, hosting, or redistribution of the Software
+* attribution to the original Author is preserved
+* this license or a clear reference to it is included
+* the nature of the use or modification is clearly stated
+
+If there is genuine uncertainty whether a use qualifies under this exception, prior written permission from the Author is required before commercial use begins.
+
+8. Restrictions
+
+You may not:
+
+* remove, obscure, or alter copyright notices, license text, or author attribution
+* present the Software or a Modified Version as entirely your own original work
+* sell, rent, lease, sublicense, or relicense the original, unmodified Software
+* use the Software in a way that misrepresents its origin or ownership
+* use the Author's name, logo, branding, or domain names to imply endorsement without permission
+* distribute malware, spyware, harmful code, or deceptive software based on the Software
+* bypass, remove, or disable any technical access-control, activation, license-key, or integrity-check mechanism, except where such restriction is prohibited by applicable law
+
+9. Source Code and License Preservation
+
+If the Software is distributed in source-code form, this license must be included with the source code.
+
+If the Software is distributed in binary or compiled form, this license must be included in the package, documentation, about dialog, accompanying files, or other reasonably accessible location.
+
+Modified Versions must retain this license unless separate written permission is granted by the Author.
+
+10. Ownership
+
+The original Software remains the property of the Author.
+
+This license does not transfer ownership of the Software, the name NejedNiko, logos, branding, trademarks, domains, or other identity-related materials.
+
+You own your own original modifications, but only to the extent that they do not include or override the rights of the original Author in the original Software.
+
+11. Third-Party Components
+
+Third-party libraries, assets, tools, or components included with the Software may be subject to their own license terms.
+
+This license does not replace or override third-party license terms.
+
+12. Termination
+
+This license is automatically terminated if you fail to comply with its terms.
+
+Upon termination, you must stop using and redistributing the Software and any Modified Versions that violate this license.
+
+Termination does not remove the requirement to preserve attribution for any copies or derivatives already distributed.
+
+13. Disclaimer of Warranty
+
+The Software is provided "as is", without warranty of any kind, express, implied, statutory, or otherwise.
+
+The Author makes no warranties regarding functionality, reliability, accuracy, security, compatibility, fitness for a particular purpose, noninfringement, or availability.
+
+Use of the Software is at your own risk.
+
+14. Limitation of Liability
+
+To the maximum extent permitted by applicable law, the Author shall not be liable for any direct, indirect, incidental, special, consequential, or punitive damages arising from the use, modification, redistribution, or inability to use the Software.
+
+This includes, but is not limited to, loss of data, loss of profits, business interruption, system failure, security issues, or any other damages, even if the Author has been advised of the possibility of such damages.
+
+15. Governing Law
+
+This license shall be governed by and construed in accordance with the laws of the Czech Republic.
+
+16. Permission and Exceptions
+
+The Author may grant additional permissions, commercial licenses, exceptions, or separate agreements in writing.
+
+Any such permission applies only to the specific person, entity, version, and use case for which it was granted.
+
+17. Patent Non-Assertion
+
+To the extent the Author holds patents or patent applications covering the Software, the Author grants You a non-exclusive, royalty-free, worldwide license under those patents solely to use the Software as permitted by this license. This grant does not extend beyond the scope of this license, does not apply to uses that exceed the permissions granted here, and may be terminated if You initiate patent litigation against the Author specifically relating to the Software.
+
 ====================================================================
 
-You are free to:
+NejedNiko Free Use License - 3D (NFUL-3D) v1.0
 
-- Share — copy and redistribute the material in any medium or format
-- Adapt — remix, transform, and build upon the material
+Copyright (c) NejedNiko
 
-Under the following terms:
+This license governs the use, reproduction, distribution, and physical manufacture of 3D model files and objects produced from them.
 
-1. **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.  
-   You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+This work is licensed, not sold.
 
-2. **NonCommercial** — You may not use the material for commercial purposes.
+1. Definitions
 
-No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+"Model" means the 3D model files, design files, mesh data, parametric design files, and associated documentation distributed under this license, including files in formats such as STL, OBJ, STEP, 3MF, F3D, BLEND, or any equivalent format.
 
-**Disclaimer:**
-This license is provided “as-is” and without warranty of any kind.  
-No liability is assumed for damages arising from the use or misuse of this project.
+"Physical Object" means any tangible item manufactured, printed, cast, machined, formed, or otherwise produced using the Model as a template or blueprint, including 3D-printed parts, CNC-machined parts, molded components, or similar.
 
-Contact: info@nejedniko.cz  
-License details: https://creativecommons.org/licenses/by-nc/4.0/
+"Author" means NejedNiko, the original creator and copyright holder of the Model.
 
-© 2025 Nejedniko.cz – OpenAlarm Project
+"You" means any individual or legal entity using, copying, modifying, distributing, or manufacturing from the Model.
+
+"Modified Model" means any version of the Model that has been changed, adapted, extended, remixed, rescaled, or otherwise altered from its original form.
+
+"Commercial Use" means use primarily intended for commercial advantage, monetary compensation, paid services, product sales, business operations, or revenue generation.
+
+2. Grant of License
+
+Permission is granted to use, copy, study, modify, and redistribute the Model, and to manufacture Physical Objects from it, subject to the terms of this license.
+
+The Model and Physical Objects produced from it may be used free of charge for personal, educational, research, hobby, and other non-commercial purposes.
+
+3. Attribution Requirement
+
+Any use, redistribution, publication, or Modified Model must preserve clear attribution to the original Author.
+
+At minimum, the following must be preserved:
+
+* the original copyright notice
+* this license text or a clear reference to it
+* the name NejedNiko as the original Author
+
+For Physical Objects distributed to others, attribution must be provided in at least one of the following ways:
+
+* a label, engraving, or marking on or near the Physical Object, where reasonably practical
+* printed or digital documentation included with the Physical Object
+* a product listing, page, or description that clearly credits the original Author and references this license
+
+You may not misrepresent the original authorship of the Model or Physical Object.
+
+4. Redistribution of Model Files
+
+You may redistribute the Model files provided that:
+
+* this license text is included
+* all copyright and attribution notices are preserved
+* the Model is not falsely presented as your own original design
+* any Modified Model is clearly marked as modified and includes a description of changes made
+
+5. Redistribution of Physical Objects
+
+You may distribute Physical Objects produced from the Model for non-commercial purposes, provided that:
+
+* attribution to the original Author is provided as described in Section 3
+* the Physical Object is not falsely presented as entirely your own original design
+
+6. Modifications
+
+You may modify the Model and create Modified Models, provided that:
+
+* your modifications are clearly described
+* the original Author remains credited
+* this license is included with the Modified Model
+* the Modified Model does not imply endorsement by the original Author unless explicitly permitted in writing
+* you do not use the name, branding, or identity of NejedNiko in a misleading way
+
+A Modified Model must include a notice such as:
+
+"Modified from original design by NejedNiko."
+
+Where practical, the notice should also include a short summary of the changes made.
+
+7. Non-Commercial Use
+
+The Model, Modified Models, and Physical Objects produced from them may be used, copied, modified, and distributed freely for non-commercial purposes.
+
+Commercial Use of the original, unmodified Model, or of Physical Objects produced directly from it without substantial transformation, is not permitted without prior written permission from the Author.
+
+8. Commercial Use Exception
+
+Commercial Use of Physical Objects or Modified Models may be permitted without separate written permission only if the Model has been substantially incorporated as a minor, supporting component within a larger independent product or design, and all of the following conditions are met:
+
+* the resulting product contains substantial original design work clearly beyond the Model itself
+* the Model does not constitute the primary feature, defining visual element, or main deliverable of the resulting product
+* the resulting product is not primarily a resale, repackaging, or redistribution of the Model or of Physical Objects produced directly from it
+* attribution to the original Author is preserved
+* this license or a clear reference to it is included in product documentation or listings
+
+If there is genuine uncertainty whether a use qualifies under this exception, prior written permission from the Author is required before commercial activity begins.
+
+9. Restrictions
+
+You may not:
+
+* remove, obscure, or alter copyright notices, license text, or author attribution
+* present the Model or Physical Objects as entirely your own original design
+* sell, rent, lease, sublicense, or relicense the original, unmodified Model files
+* commercially mass-produce Physical Objects based on the original, unmodified Model without prior written permission
+* use the Author's name, branding, logo, or identity to imply endorsement without permission
+
+10. Ownership
+
+The original Model and its design remain the property of the Author.
+
+This license does not transfer ownership of the Model, the name NejedNiko, logos, branding, trademarks, or other identity-related materials.
+
+You own your original modifications, but only to the extent they do not include or override the rights of the original Author in the original Model.
+
+11. Third-Party Components
+
+Third-party models, assets, components, or files included with or referenced by the Model may be subject to their own license terms. This license does not replace or override third-party license terms.
+
+12. Termination
+
+This license is automatically terminated if you fail to comply with its terms.
+
+Upon termination, you must stop using, distributing, and manufacturing from the Model and any Modified Models that violate this license.
+
+Termination does not remove the requirement to preserve attribution for Physical Objects already distributed.
+
+13. Disclaimer of Warranty
+
+The Model and any Physical Objects produced from it are provided "as is", without warranty of any kind, express, implied, or statutory.
+
+The Author makes no warranties regarding functionality, structural integrity, dimensional accuracy, material compatibility, fitness for a particular purpose, safety, or suitability for any specific application.
+
+14. Safety Notice
+
+Physical Objects produced from the Model are manufactured entirely at your own risk. The Author does not guarantee structural soundness, load-bearing capacity, material compatibility, or safety for any specific use. You are solely responsible for assessing the suitability of any Physical Object for its intended application, particularly in safety-critical contexts.
+
+15. Limitation of Liability
+
+To the maximum extent permitted by applicable law, the Author shall not be liable for any direct, indirect, incidental, special, consequential, or punitive damages arising from the use, manufacture, distribution, or inability to use the Model or Physical Objects produced from it.
+
+This includes, but is not limited to, structural failure, personal injury, property damage, loss of data, loss of profits, or any other damages, even if the Author has been advised of the possibility of such damages.
+
+16. Patent Non-Assertion
+
+To the extent the Author holds patents or patent applications covering the Model or its design, the Author grants You a non-exclusive, royalty-free, worldwide license under those patents solely to use the Model as permitted by this license. This grant does not extend beyond the scope of this license, does not apply to uses that exceed the permissions granted here, and may be terminated if You initiate patent litigation against the Author specifically relating to the Model.
+
+17. Governing Law
+
+This license shall be governed by and construed in accordance with the laws of the Czech Republic.
+
+18. Permission and Exceptions
+
+The Author may grant additional permissions, commercial licenses, exceptions, or separate agreements in writing.
+
+Any such permission applies only to the specific person, entity, version, and use case for which it was granted.
